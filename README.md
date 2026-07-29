@@ -48,11 +48,11 @@ The landing page contains:
 
 ## Image Credits
 
-No external images are currently used on the website.
-
 The file `design-reference.png` is the original project design provided by The Odin Project and is used only as a visual reference.
 
-Any images added in the future will be listed here with the creator's name and a link to the original source.
+| Used In | Asset | Source | License |
+|---|---|---|---|
+| Header logo | Code Alt icon | [SVG Repo](https://www.svgrepo.com/svg/533323/code-alt) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 
 ## Acknowledgments
 
