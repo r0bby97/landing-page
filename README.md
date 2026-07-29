@@ -40,7 +40,7 @@ The main goals of this project are:
 The landing page contains:
 
 - A header with a logo and navigation links
-- An introductory section with a heading, text, button, and image placeholder
+- A hero section with a heading, text, button, and image placeholder
 - An information section
 - A quote section
 - A call-to-action section
