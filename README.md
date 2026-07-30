@@ -53,6 +53,7 @@ The file `design-reference.png` is the original project design provided by The O
 | Used In | Asset | Source | License |
 |---|---|---|---|
 | Header logo | Code Alt icon | [SVG Repo](https://www.svgrepo.com/svg/533323/code-alt) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Hero button | Arrow Right icon | [SVG Repo](https://www.svgrepo.com/svg/524262/arrow-right) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 
 ## Acknowledgments
 
