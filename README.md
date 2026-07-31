@@ -1,8 +1,15 @@
-# Landing Page
+# CodeAcademy Landing Page
 
-This project is a landing page created as part of the [Foundations course](https://www.theodinproject.com/lessons/foundations-landing-page) from The Odin Project.
+This project is a landing page created as part of the
+[Foundations course](https://www.theodinproject.com/lessons/foundations-landing-page)
+from The Odin Project.
 
-The goal of the project is to recreate a provided webpage design using HTML and CSS. The project focuses on building a complete page layout with Flexbox and applying foundational CSS concepts.
+The project started as a recreation of a provided webpage design using HTML
+and CSS. I am now customizing the original layout with my own content, color
+palette, branding, icons, and design ideas.
+
+The project focuses on building a complete page layout with Flexbox and
+applying foundational CSS concepts.
 
 ## Live Demo
 
@@ -10,17 +17,21 @@ The goal of the project is to recreate a provided webpage design using HTML and 
 
 ## Design Reference
 
-The website is based on the following design provided by The Odin Project:
+The original layout is based on the following design provided by
+The Odin Project:
 
 ![Landing page design reference](./images/design-reference.png)
 
-The reference image is used as a visual guide for recreating the layout.
+The reference image is used as a guide for the general page structure. The
+content, colors, branding, icons, and individual design elements are being
+customized.
 
 ## Built With
 
 - HTML5
 - CSS3
 - Flexbox
+- Inline SVG icons
 
 ## Project Goals
 
@@ -33,32 +44,43 @@ The main goals of this project are:
 - Apply margins, padding, and gaps
 - Style headings, paragraphs, links, and buttons
 - Work with colors, font sizes, and font weights
+- Add and style inline SVG icons
 - Organize CSS in a clear and readable way
+- Personalize an existing design with original content and styling
 
 ## Page Structure
 
-The landing page contains:
+The landing page currently contains:
 
-- A header with a logo and navigation links
-- A hero section with a heading, text, button, and image placeholder
-- An information section
-- A quote section
-- A call-to-action section
+- A customized header with a logo, navigation links, and sign-in button
+- A hero section with a heading, supporting text, call-to-action button, and feature icons
+- An editor mockup that is currently in progress
+- An information section with placeholder content
+- A quote section with placeholder content
+- A call-to-action section with placeholder content
 - A footer
 
 ## Image Credits
 
-The file `design-reference.png` is the original project design provided by The Odin Project and is used only as a visual reference.
+The file `design-reference.png` is the original project design provided by
+The Odin Project and is used only as a visual reference.
 
 | Used In | Asset | Source | License |
 |---|---|---|---|
 | Header logo | Code Alt icon | [SVG Repo](https://www.svgrepo.com/svg/533323/code-alt) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Hero button | Arrow Right icon | [SVG Repo](https://www.svgrepo.com/svg/524262/arrow-right) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Editor window controls | Dot Small icon | [SVG Repo](https://www.svgrepo.com/svg/491399/dot-small) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Hero feature: Beginner friendly | Book Open icon | [Lucide](https://lucide.dev/icons/book-open) | [ISC License](https://lucide.dev/license) |
+| Hero feature: Hands-on projects | Code icon | [Font Awesome](https://fontawesome.com/icons/code?f=classic&s=solid) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Hero feature: Supportive community | Users icon | [Lucide](https://lucide.dev/icons/users) | [ISC License](https://lucide.dev/license) |
+| Editor: Folder | Folder Open icon | [Lucide](https://lucide.dev/icons/folder-open) | [ISC License](https://lucide.dev/license) |
+| Editor: Source file | File Code icon | [Lucide](https://lucide.dev/icons/file-code) | [ISC License](https://lucide.dev/license) |
 
 ## Acknowledgments
 
-- Project assignment and design provided by [The Odin Project](https://www.theodinproject.com/)
-- Design reference provided by The Odin Project
+- Project assignment and original design reference provided by
+  [The Odin Project](https://www.theodinproject.com/)
+- Icons provided by SVG Repo, Lucide, and Font Awesome
 
 ## Author
 

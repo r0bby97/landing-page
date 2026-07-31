@@ -11,39 +11,38 @@ button {
   padding: 0.5em 1.5em;
   border: none;
   border-radius: 0.5em;
-  background-color: #637D46;
+  background-color: #637d46;
   color: white;
   font-size: 1em;
   font-weight: 500;
 }
 
+ul {
+  list-style-type: none;
+}
+
 
 /* Shared colors */
 
-.grad {
-  background-image: linear-gradient(to bottom, #07100F, #161D19);
+.dark-bg {
+  background-image: linear-gradient(to bottom, #163024, #152f22);
 }
 
-.hero-secondary-text,
-.header-right a {
-  font-size: 18px;
-  font-weight: 300;
-  text-decoration: none;
-}
-
-.hero-secondary-text{
-  line-height: 1.6em;
-}
 .green-text {
-  color: #A3B18A
+  color: #a3b18a;
 }
 
 .offwhite-text {
-  color: #F8F4EA;
+  color: #f8f4ea;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
 
-
+.thinner-font-weight {
+  font-weight: 300;
+}
 
 /* Header */
 
@@ -61,32 +60,37 @@ button {
   gap: 1em;
 }
 
-.icon {
+.logo-icon {
   width: 3em;
   height: auto;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 }
 
-.header-logo-text {
+.logo-text {
   display: flex;
-  color: #f9faf8;
   font-size: 2em;
   font-weight: 700;
 }
 
 .header-right ul {
   display: flex;
+  align-items: center;
   gap: 2em;
   list-style-type: none;
-  align-items: center;
+}
+
+.header-right a {
+  font-size: 18px;
+  text-decoration: none;
 }
 
 
-/* Hero section */
+/* Hero */
 
-.hero-section {
+.hero {
   display: flex;
   align-items: center;
+  gap: 2em;
   padding: 5em 3em;
 }
 
@@ -106,35 +110,220 @@ button {
   justify-content: center;
 }
 
-.hero-main-text {
+.hero-title {
   font-size: 24px;
   font-weight: 900;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .hero-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 54px;
   width: 210px;
+  height: 54px;
 }
 
-.hero-button span {
-  /* Prevent the button label from wrapping onto multiple lines. */
+.hero-button span,
+.feature-item span {
+  /* Keep the text on one line inside the flex container. */
   white-space: nowrap;
 }
 
 .arrow-icon {
-  /* Keep the icon at a fixed size inside the flex container. */
+  /* Keep the arrow from shrinking inside the button. */
   width: 1.5em;
   height: auto;
   flex-shrink: 0;
 }
 
+.hero-features {
+  display: flex;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.feature-icon {
+  width: 1.25em;
+  height: 1.25em;
+  flex-shrink: 0;
+}
+
+
+
+/* Editor mockup - work in progress */
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #555;
+  border-radius: 0.8em;
+  background-color: #172a1f;
+}
+
+.window-controls {
+  display: flex;
+  gap: 0.5em;
+  padding: 0.75em;
+  border-bottom: 1px solid #555;
+}
+
+.window-dot {
+  width: 0.75em;
+  height: 0.75em;
+  flex-shrink: 0;
+}
+
+.dot-red {
+  color: #ff5f57;
+}
+
+.dot-yellow {
+  color: #febc2e;
+}
+
+.dot-green {
+  color: #28c840;
+}
+
+.editor-content {
+  display: flex;
+}
+
+.file-explorer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border-right: 1px solid #555;
+  padding: 1em;
+  gap: 1em;
+}
+
+.explorer-main-bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.explorer-secondary-bullets {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 0;
+}
+
+.editor-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.active {
+  background-color: #637d462a;
+}
+
+.indented {
+  margin-left: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+}
+
+/*
+ * All editor icons use the same size, stroke width,
+ * viewBox and inherited text color.
+ */
+.editor-icon {
+  display: block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 1em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+
+.code-area {
+  border-right: 1px solid #555;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  overflow: auto;
+  width: 650px;
+}
+
+.code-area span {
+  margin: 0.5em;
+  padding: 0.5em;
+  border-bottom: 1px solid #555;
+  display: flex;
+  align-items: center;
+}
+
+.code-lines {
+  padding: 0.5em 2em;
+  font-family: "Courier New", monospace;
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+
+.code-lines li {
+  padding-left: 0.75em;
+}
+
+.code-lines code {
+  font-family: inherit;
+  /* Preserve spaces used for code indentation. */
+  white-space: pre;
+}
+
+.code-lines li::marker {
+  color: #718078;
+}
+
+.code-red {
+  color: #be574a;
+}
+
+.code-yellow {
+  color: #c4ab4a;
+}
+
+.code-green {
+  color: #83b65c;
+}
+
+
+
+
+
+
+
+
+
+.preview {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
 
 /* Information section */
 
-.information {
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,13 +332,13 @@ button {
   padding: 3em 5em;
 }
 
-.information-heading {
+.info-title {
   color: #1f2937;
   font-size: 36px;
   font-weight: 900;
 }
 
-.image-container {
+.info-cards {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -157,7 +346,7 @@ button {
   gap: 3em;
 }
 
-.image {
+.info-card {
   display: flex;
   width: 10em;
   flex-direction: column;
@@ -168,7 +357,7 @@ button {
   text-align: center;
 }
 
-.image img {
+.info-card img {
   border: 3px solid #3882f6;
   border-radius: 0.5em;
 }
@@ -184,7 +373,6 @@ button {
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
-  font-weight: 300;
 }
 
 .quote-author {
@@ -197,7 +385,7 @@ button {
 
 /* Call-to-action section */
 
-.call-to-action {
+.cta {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -208,12 +396,12 @@ button {
   color: white;
 }
 
-.call-headline {
+.cta-title {
   font-size: 24px;
   font-weight: bold;
 }
 
-.call-to-action-button {
+.cta-button {
   border: 2px solid white;
 }
 
