@@ -32,6 +32,7 @@ customized.
 - CSS3
 - Flexbox
 - Inline SVG icons
+- External SVG graphics
 
 ## Project Goals
 
@@ -44,7 +45,8 @@ The main goals of this project are:
 - Apply margins, padding, and gaps
 - Style headings, paragraphs, links, and buttons
 - Work with colors, font sizes, and font weights
-- Add and style inline SVG icons
+- Add and style SVG icons
+- Create a responsive editor mockup
 - Organize CSS in a clear and readable way
 - Personalize an existing design with original content and styling
 
@@ -54,7 +56,7 @@ The landing page currently contains:
 
 - A customized header with a logo, navigation links, and sign-in button
 - A hero section with a heading, supporting text, call-to-action button, and feature icons
-- An editor mockup that is currently in progress
+- A responsive editor mockup with a file explorer, syntax-highlighted code, and project preview
 - An information section with placeholder content
 - A quote section with placeholder content
 - A call-to-action section with placeholder content
@@ -63,7 +65,8 @@ The landing page currently contains:
 ## Image Credits
 
 The file `design-reference.png` is the original project design provided by
-The Odin Project and is used only as a visual reference.
+The Odin Project and is used as a visual reference and temporary placeholder
+image.
 
 | Used In | Asset | Source | License |
 |---|---|---|---|
@@ -73,14 +76,19 @@ The Odin Project and is used only as a visual reference.
 | Hero feature: Beginner friendly | Book Open icon | [Lucide](https://lucide.dev/icons/book-open) | [ISC License](https://lucide.dev/license) |
 | Hero feature: Hands-on projects | Code icon | [Font Awesome](https://fontawesome.com/icons/code?f=classic&s=solid) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Hero feature: Supportive community | Users icon | [Lucide](https://lucide.dev/icons/users) | [ISC License](https://lucide.dev/license) |
-| Editor: Folder | Folder Open icon | [Lucide](https://lucide.dev/icons/folder-open) | [ISC License](https://lucide.dev/license) |
-| Editor: Source file | File Code icon | [Lucide](https://lucide.dev/icons/file-code) | [ISC License](https://lucide.dev/license) |
+| Editor file explorer | [Folder Open](https://lucide.dev/icons/folder-open), [File Code](https://lucide.dev/icons/file-code), [Hash](https://lucide.dev/icons/hash), [Braces](https://lucide.dev/icons/braces), and [File Text](https://lucide.dev/icons/file-text) icons | [Lucide](https://lucide.dev/) | [ISC License](https://lucide.dev/license) |
+| Editor preview toolbar | [Chevron Down](https://lucide.dev/icons/chevron-down), [Monitor](https://lucide.dev/icons/monitor), [Tablet](https://lucide.dev/icons/tablet), and [Smartphone](https://lucide.dev/icons/smartphone) icons | [Lucide](https://lucide.dev/) | [ISC License](https://lucide.dev/license) |
+| Editor preview: First project | [Sunrise graphic](https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f305.svg) | [Twemoji](https://github.com/twitter/twemoji) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Editor preview: Second project | [National Park graphic](https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f3de.svg) | [Twemoji](https://github.com/twitter/twemoji) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+
+Twemoji graphics by Twitter, Inc. and other contributors, licensed under
+CC BY 4.0.
 
 ## Acknowledgments
 
 - Project assignment and original design reference provided by
   [The Odin Project](https://www.theodinproject.com/)
-- Icons provided by SVG Repo, Lucide, and Font Awesome
+- Icons and graphics provided by SVG Repo, Lucide, Font Awesome, and Twemoji
 
 ## Author
 
